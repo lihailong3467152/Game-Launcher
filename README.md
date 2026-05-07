@@ -21,16 +21,6 @@
 └─ README.md           # 项目说明
 ```
 
-静态上线只需要上传：
-
-```text
-index.html
-五子棋.html
-星际猎手.html
-消消乐.html
-```
-
-`app.py` 和 `requirements.txt` 不是静态上线必需文件。
 
 ## 本地预览
 
@@ -64,7 +54,7 @@ http://127.0.0.1:8891/
 index.html
 五子棋.html
 星际猎手.html
-连连看.html
+消消乐.html
 ```
 
 4. 打开仓库的 `Settings`。
@@ -95,22 +85,11 @@ https://你的用户名.github.io/html-games/
 index.html
 五子棋.html
 星际猎手.html
-连连看.html
+消消乐.html
 ```
 
 5. Netlify 部署完成后会生成一个公开访问地址。
 
-## Streamlit Cloud 说明
-
-截图里的 `share.streamlit.io` 是 Streamlit Community Cloud，主要用于部署 Streamlit Python 应用。
-
-当前 `index.html` 是静态网站入口，不能直接作为 Streamlit 应用入口。如果一定要部署到 Streamlit Cloud，需要额外创建 `streamlit_app.py`，并在 `requirements.txt` 中保留：
-
-```text
-streamlit
-```
-
-如果只是上线这三个 HTML 游戏，推荐使用 GitHub Pages、Netlify 或 Vercel。
 
 ## 更新游戏
 
