@@ -15,7 +15,7 @@
 ├─ index.html          # 静态网站首页，上线时的入口文件
 ├─ 五子棋.html          # 五子棋游戏
 ├─ 星际猎手.html        # 星际猎手游戏
-├─ 连连看.html          # 连连看游戏
+├─ 消消乐.html          # 消消乐游戏
 ├─ app.py              # 本地 Python 启动器，可选
 ├─ requirements.txt    # Streamlit Cloud 依赖文件，可选
 └─ README.md           # 项目说明
@@ -27,7 +27,7 @@
 index.html
 五子棋.html
 星际猎手.html
-连连看.html
+消消乐.html
 ```
 
 `app.py` 和 `requirements.txt` 不是静态上线必需文件。
